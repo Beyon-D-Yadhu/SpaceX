@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: D-DIN-Medium, Arial, Verdana, sans-serif;
+}
+body{
+    
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.container{
+    width: 100%;
+    
+}
+.navigation{
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.fa-solid fa-bars{
+    cursor: pointer;
+}
+.spacXimg{
+    height: 120px;
+    margin-left: 45px;
+    
+    color: #fff;
+}
+.line{
+    color: #fff;
+}
+.Starlink{
+    height: 100vh;
+    width: 100%;
+    background-image: url("LAUNCHES_Starlink_SLC_40_Desktop_f9768cabd4.jpg");
+    background-size: cover;
+
+
+}
+.content-starlink{
+    font-size: 16px;
+    color: #fff;
+}
+.div1{
+    position: relative;
+    width: 35vw;
+    height: 100px;
+    line-height: 38px;
+    top: 360px;
+    left: 50px;
+}
+.navigator{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    
+}
+.btn{
+    font: 14px/50px D-DIN-Bold,Arial,Verdana,sans-serif;
+    color: #fff;
+    transition: color .5s cubic-bezier(.19,1,.22,1);
+    width: 150px;
+    border: 2px #fff solid;
+    background-color: transparent;
+    cursor: pointer;
+    left: 53px;
+    position: relative;
+    top: 370px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+h1{
+    color: #fff;
+}
+.starship{
+    background-image: url(STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.main-head{
+    font-size: 36px;
+}
+a{
+    margin-right: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font: Arial,Verdana,sans-serif;
+}
+a:hover{
+    color: #bba0a0;
+}
+a
+.righ{
+    margin: 59px;
+}
+
+
+
+.Launch_starlink{
+    background-image: url(Starlink_6_5_SLC_40_2023_07_09_DSC_9579_Desktop_133863aee0.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.Euclid{
+    background-image: url(Euclid_outsidetowerh_IMG_2487_desktop_a75e89406d.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.div2{
+    position: relative;
+    width: 35vw;
+    height: 100px;
+    line-height: 30px;
+    top: 400px;
+    left: 50px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p a{
+    font-size: 10px;
+}
